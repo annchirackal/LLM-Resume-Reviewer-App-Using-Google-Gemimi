@@ -15,6 +15,11 @@ The job application process can be daunting, and our resumes serve as the primar
 -- Skills Improvement: Offers suggestions for enhancing skills based on the job requirements.
 -- Keywords Analysis: Identifies missing keywords in the resume compared to the job description.
 -- Match Percentage: Generates a percentage score indicating the alignment between the resume and the job description.
+## Prequsites/Steps For Execution:
+- Python 3.10.0 or above
+- Edit  .env file with your google api key
+- pip install -r requirements.txt
+- streamlit run app.py
 ## Technologies Used
 - Streamlit: Used to develop the web application interface.
 - Google Generative AI (Gemini Pro Vision): Employs advanced AI for processing and analyzing resume content.
